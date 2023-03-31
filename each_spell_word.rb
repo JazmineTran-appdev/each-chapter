@@ -4,4 +4,8 @@
 # Look in the github README file for example output
 
 p "Enter a word for me to spell:"
+answer = gets.chomp.split("")
 
+answer.each do |letter|
+  p letter
+end
